@@ -50,14 +50,7 @@ A continuación se presenta una descripción de los scripts del repositorio:
 
 ```bash
 git clone https://github.com/Fr4nxu/Management.git
-
-Para ejecutar cualquiera de estos scripts, asegúrese de que tienen permisos de ejecución:
-
-```bash
 cd Management
 chmod +x *.sh
-
-### 2. Ejecución de scripts
-```bash
 ./nombre_del_script.sh
 
