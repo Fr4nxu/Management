@@ -4,7 +4,7 @@ Este repositorio contiene una colección de scripts en Bash para diversas tareas
 
 ## Contenidos
 
-A continuación se presenta una descripción de los scripts incluidos en el repositorio:
+A continuación se presenta una descripción de los scripts del repositorio:
 
 ### Gestión de Usuarios y Grupos
 
@@ -46,8 +46,18 @@ A continuación se presenta una descripción de los scripts incluidos en el repo
 - **menu.sh**: Proporciona una interfaz de menú para ejecutar otros scripts de forma interactiva.
 
 ## Uso
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/Fr4nxu/Management.git
 
 Para ejecutar cualquiera de estos scripts, asegúrese de que tienen permisos de ejecución:
 
 ```bash
-chmod +x nombre_del_script.sh
+cd Management
+chmod +x *.sh
+
+### 2. Ejecución de scripts
+```bash
+./nombre_del_script.sh
+
