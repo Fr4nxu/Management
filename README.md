@@ -47,10 +47,15 @@ A continuación se presenta una descripción de los scripts del repositorio:
 
 ## Uso
 ### 1. Clonar el repositorio
-
 ```bash
 git clone https://github.com/Fr4nxu/Management.git
+### 2. Acceder al repositorio
+```bash
 cd Management
+### 3. Permisos necesarios
+```bash
 chmod +x *.sh
+### 4. Ejecutar script
+```bash
 ./nombre_del_script.sh
 
